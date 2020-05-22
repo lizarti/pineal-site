@@ -10,9 +10,10 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
-      - { label: 'Tìtulo', name: 'title', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
       - { label: 'Data de publicação', name: 'date', widget: 'datetime' }
       - { label: 'Descrição', name: 'description', widget: 'string' }
       - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
+      - { label: 'Categorias', name: 'categorias', widget: 'list'}
