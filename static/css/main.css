@@ -3036,7 +3036,6 @@
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 16em;
 			}
 
@@ -3143,6 +3142,7 @@
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					height: 120px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3593,7 +3593,7 @@
 		}
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			/* border-color: #dddddd; */
 		}
 
 		#main > .main {
@@ -3706,9 +3706,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
-		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		padding: 5em 5em 1em 5em ;
 	}
 
 		#footer > * {
@@ -3718,7 +3716,7 @@
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: 2.5em 0 1em 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -3726,7 +3724,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 1em 4em ;
 			}
 
 		}

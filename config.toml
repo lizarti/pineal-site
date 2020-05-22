@@ -1,15 +1,15 @@
 # Site settings
 baseurl = "https://pineal.netlify.app/"
-languageCode = "en-us"
-title = "Hugo Stellar Theme"
+languageCode = "pt-br"
+title = "Pineal"
 
 googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
-    title = "Stellar"
-    description = 'Just another free, fully responsive site template built by [@ajlkn](https://twitter.com/ajlkn) for <a href="https://html5up.net">HTML5 UP</a>. Ported to [hugo](https://gohugo.io) by [@AntonPolishko](https://github.com/antonpolishko)'
-    image = "images/logo.svg"
+    title = "PINEAL"
+    description = "Centro de meditação, yoga e pesquisas da consciência"
+    image = "img/logo2.png"
 
   [[params.navigation]]
     name = "Introduction"
@@ -20,17 +20,21 @@ googleAnalytics = "" #put your google-analytics ID here
     href = "#first"
 
   [[params.navigation]]
-    name = "Second Section"
-    href = "#second"
+    name = "Cursos"
+    href = "#cursos"
 
   [[params.navigation]]
     name = "Get Started"
     href = "#cta"
 
+  [[params.navigation]]
+    name = "Blog"
+    href = "./blog"
+
   [params.intro]
-    title = "Ipsum sed adipiscing"
+    title = "Corpo e consciência"
     description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
-    image = "images/pic01.jpg"
+    image = "img/pic01.png"
     [[params.intro.action]]
       buttontext = "Learn More"
       href = "generic.html"
@@ -41,7 +45,7 @@ googleAnalytics = "" #put your google-analytics ID here
     title = "Magna veroeros"
     description = ""
     
-    # the picture is storead at static/images/
+    # the picture is storead at static/img/
     [params.section.features]
       enable = true
       [[params.section.feature]]
@@ -65,8 +69,8 @@ googleAnalytics = "" #put your google-analytics ID here
         buttonUrl = "generic.html"
 
   [[params.section]]
-    id = "second"
-    title = "Ipsum consequat"
+    id = "cursos"
+    title = "Cursos"
     description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
 
     [params.section.statistics]
@@ -122,10 +126,11 @@ googleAnalytics = "" #put your google-analytics ID here
     title = "Aliquam sed mauris"
     description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Contato"
+    address = "Rua Euclides Bandeira 1433 - Curitiba"
+    phone = "(41) 995126513"
+    email = "contatopineal@hotmail.com"
+    whatsapplink = "https://api.whatsapp.com/send?phone=5541995126513&text="
 
     [[params.footer.action]]
       href = "generic.html"
@@ -133,34 +138,29 @@ googleAnalytics = "" #put your google-analytics ID here
 
     # social icons
     [params.footer.social_list]
-      enable = true
-
-      [[params.footer.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        link = "#"
+      enable = true      
 
       [[params.footer.social]]
         title = "Facebook"
         icon = "fa-facebook"
-        link = "#"
+        link = "https://www.facebook.com/PinealCuritiba/"
 
       [[params.footer.social]]
         title = "Instagramm"
         icon = "fa-instagram"
-        link = "#"
+        link = "https://www.instagram.com/pinealcuritiba/"
 
       [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
+        title = "YouTube"
+        icon = "fa-youtube"
+        link = "https://www.youtube.com/channel/UC2BaKv9Ht_CPjUyndlGWaKQ"
 
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
-        link = "#"
+        link = "mailto:contatopineal@hotmail.com"
 
     # copyright
     [params.footer.copyright]
       enable = true
-      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
+      text = "© Pineal - Todos os direitos reservados"

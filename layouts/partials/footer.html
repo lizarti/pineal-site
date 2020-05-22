@@ -15,12 +15,12 @@
     <h2>{{ .Site.Params.footer.second_title }}</h2>
     <dl class="alt">
       {{ with .Site.Params.footer.address }}
-        <dt>Address</dt>
+        <dt>Endereço</dt>
         <dd>{{ . | markdownify }}</dd>
       {{ end }}
-      {{ with .Site.Params.footer.phone }}
-        <dt>Phone</dt>
-        <dd>{{ . | markdownify }}</dd>
+      {{ with .Site.Params.footer }}
+        <dt>Telefone</dt>
+        <dd><a href="{{ .whatsapplink }}">{{ .phone | markdownify }}</a></dd>
       {{ end }}
       <dt>Email</dt>
       <dd><a href="mailto:{{.Site.Params.footer.email}}">{{.Site.Params.footer.email | markdownify }}</a></dd>
@@ -36,7 +36,7 @@
   </section>
   
   {{ if .Site.Params.footer.copyright.enable }}
-    <p class="copyright">{{.Site.Params.footer.copyright.text | markdownify }}.</p>      
+    <p class="copyright">{{ now.Format "2006" }} {{.Site.Params.footer.copyright.text | markdownify }}.</p>      
   {{ end }}
 
 </footer>
