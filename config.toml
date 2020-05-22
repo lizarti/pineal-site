@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://pineal.netlify.app/"
 languageCode = "en-us"
 title = "Hugo Stellar Theme"
 
