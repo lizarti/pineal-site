@@ -1,0 +1,12 @@
+<a class="card-link" href="{{ .RelPermalink }}">
+  <article class="blog-card">
+    <div class="blog-card-image" style="background-image: url({{ .Params.cover }});">
+    </div>
+    <div class="article-details">
+      <p class="post-category">{{ .Params.category }}</p>
+      <h3 class="post-title">{{ .Title }}</h3>
+      <p class="post-description">{{ .Params.description }}</p>
+      <p class="post-author">{{ .Date.Format "02/01/2006" }}</p>
+    </div>
+  </article>
+</a>

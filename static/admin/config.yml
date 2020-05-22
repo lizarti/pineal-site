@@ -5,8 +5,8 @@ media_folder: static/img
 public_folder: /img
 collections:
   - name: 'posts'
-    label: 'Posts'
-    folder: 'content/blog'
+    label: 'Post'
+    folder: 'content/posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
@@ -14,6 +14,7 @@ collections:
     fields:
       - { label: 'Título', name: 'title', widget: 'string' }
       - { label: 'Data de publicação', name: 'date', widget: 'datetime' }
-      - { label: 'Descrição', name: 'description', widget: 'string' }
+      - { label: 'Categoria', name: 'category', widget: 'string' }
+      - { label: 'Capa', name: 'cover', widget: 'image', allow_multiple: false}
+      - { label: 'Introdução', name: 'intro', widget: 'string', hint: 'Aparece somente na tela de listagem de posts e não no post em si', pattern: ['.{0,100}', "Deve ter no máximo 100 caracteres."] }
       - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
-      - { label: 'Categorias', name: 'categorias', widget: 'list'}

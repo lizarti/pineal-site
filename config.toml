@@ -13,16 +13,16 @@ googleAnalytics = "" #put your google-analytics ID here
     image = "img/logo2.png"
 
   [[params.navigation]]
-    name = "Introduction"
+    name = "A Pineal"
     href = "#intro"
-
-  [[params.navigation]]
-    name = "First Section"
-    href = "#first"
 
   [[params.navigation]]
     name = "Cursos"
     href = "#cursos"
+
+  [[params.navigation]]
+    name = "Eventos"
+    href = "#eventos"
 
   [[params.navigation]]
     name = "Get Started"
@@ -30,20 +30,15 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.navigation]]
     name = "Blog"
-    href = "./blog"
+    href = "./posts"
 
   [params.intro]
     title = "Corpo e consciência"
-    description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
     image = "img/pic01.png"
-    [[params.intro.action]]
-      buttontext = "Learn More"
-      href = "generic.html"
-
 
   [[params.section]]
-    id = "first"
-    title = "Magna veroeros"
+    id = "cursos"
+    title = "Cursos"
     description = ""
     
     # the picture is storead at static/img/
@@ -70,8 +65,8 @@ googleAnalytics = "" #put your google-analytics ID here
         buttonUrl = "generic.html"
 
   [[params.section]]
-    id = "cursos"
-    title = "Cursos"
+    id = "eventos"
+    title = "Eventos"
     description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
 
     [params.section.statistics]
@@ -124,18 +119,14 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    title = "Método"
+    description = "Kaio Shimanski, o fundador da Pineal, juntou sua experiência de anos como professor de yoga e meditação com seus experimentos tecnológicos, pesquisas da consciência e técnicas de biohacking, que melhoram a performance do corpo e da mente."
 
     second_title = "Contato"
     address = "Rua Euclides Bandeira, 1433 - Curitiba"
     phone = "(41) 995126513"
     email = "contatopineal@hotmail.com"
     whatsapplink = "https://api.whatsapp.com/send?phone=5541995126513&text="
-
-    [[params.footer.action]]
-      href = "generic.html"
-      buttontext = "Learn More"
 
     # social icons
     [params.footer.social_list]

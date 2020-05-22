@@ -2,6 +2,8 @@
 title: Outro post
 date: 2020-05-22T15:32:45.591Z
 description: Um outro POST
+category: 'Meditação'
+cover: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/pike-place.jpg'
 ---
 ### LOREM IPSUM
 
