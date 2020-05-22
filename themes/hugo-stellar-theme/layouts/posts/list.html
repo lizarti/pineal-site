@@ -18,7 +18,7 @@
         <!-- Main -->
           <div id="main">
             <ul>
-              {{ range (where .Pages "Section" "blog") }}
+              {{ range (where .Pages "Section" "posts") }}
               <li>
                 <a href="{{ .RelPermalink }}">
                   {{ .Title }}

@@ -2,6 +2,7 @@
 baseurl = "https://pineal.netlify.app/"
 languageCode = "pt-br"
 title = "Pineal"
+theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
@@ -127,7 +128,7 @@ googleAnalytics = "" #put your google-analytics ID here
     description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
 
     second_title = "Contato"
-    address = "Rua Euclides Bandeira 1433 - Curitiba"
+    address = "Rua Euclides Bandeira, 1433 - Curitiba"
     phone = "(41) 995126513"
     email = "contatopineal@hotmail.com"
     whatsapplink = "https://api.whatsapp.com/send?phone=5541995126513&text="
@@ -164,3 +165,4 @@ googleAnalytics = "" #put your google-analytics ID here
     [params.footer.copyright]
       enable = true
       text = "© Pineal - Todos os direitos reservados"
+
