@@ -2,7 +2,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Hugo Stellar Theme"
-theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
