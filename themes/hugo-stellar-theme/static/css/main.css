@@ -3870,10 +3870,11 @@
 	color: #636363;
 	margin: 8px;
 	font-size: 1em;
+	height: 100%;
 }
 
 .blog-card-image {
-	flex: 0 1 33%;
+	flex: 0 1 40%;
 	background-size: cover;
 	background-position: center;
 }
