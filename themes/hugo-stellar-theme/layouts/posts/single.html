@@ -21,14 +21,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <!-- Main -->
       <div id="main">
 
-        <header class="major">
-          <h2>{{ .Title }}</h2>
-        </header>
-        <p class="date">{{ .Date }}</p>
-        <p class="description">{{ .Params.description }}</p>
-        <article class="content">
-          {{ .Content | markdownify }}
-        </article>
+        <div class="post--wrapper">
+
+          <header>
+            <h2 class="post--title">{{ .Title }}</h2>
+          </header>
+          <p class="date">Publicado em {{ .Date.Format "02/01/2006"  }}</p>
+          <article class="content">
+            {{ .Content }}
+          </article>
+
+        </div>
       </div>
       <!-- Footer -->
         {{ partial "footer.html" . }}
