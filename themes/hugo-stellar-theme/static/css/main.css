@@ -2660,6 +2660,10 @@
 		text-align: center;
 	}
 
+	article img {
+		width: 100%;
+	}
+
 	header.major {
 		margin-bottom: 3em;
 	}
